@@ -27,7 +27,7 @@ public class Program
       if (inputSplit.Any(x => x == (int?)null)) return "Incorrect input";
 
 #pragma warning disable CS8629 // Проверка выполняется шагом ранее.
-      return string.Join(", ", CompressArray([.. inputSplit.Select(x => (int)x.Value)]));
+      return '[' + string.Join(", ", CompressArray([.. inputSplit.Select(x => (int)x.Value)])) + ']';
 #pragma warning restore CS8629 // Тип значения, допускающего NULL, может быть NULL.
    }
 
