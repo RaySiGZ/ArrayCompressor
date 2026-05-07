@@ -20,7 +20,7 @@ public class Program
    {
       if (string.IsNullOrEmpty(input) || !input.StartsWith('[') || !input.EndsWith(']')) return "Incorrect input";
 
-      if (input == "[]") return string.Empty;
+      if (input == "[]") return "[]";
 
       int?[] inputSplit = input.Trim('[', ']', ' ').Split(',').Select(x => int.TryParse(x, out int z) ? z : (int?)null).ToArray();
 
