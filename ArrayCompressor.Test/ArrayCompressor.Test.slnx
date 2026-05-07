@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ArrayCompressor/ArrayCompressor.csproj" />
+  <Project Path="ArrayCompressor.Test.csproj" />
+</Solution>
