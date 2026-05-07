@@ -28,7 +28,7 @@
 ## Сборка и запуск
 
 ### Требования
-- [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) или новее (рекомендуется .NET 8)
+- [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)  
 
 ### Инструкция
 
